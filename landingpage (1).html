@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>food web page</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family:  Times;
+        }
+        header 
+        {
+            width: 100%;
+            height: 100vh;
+            background: url(https://cdn.dribbble.com/users/3399824/screenshots/6521075/mascot-2-04_4x.jpg);
+            background-size: 50% 90%;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        nav 
+        {
+            width: 100%;
+            height: 70px;
+            padding: 0px 10px; 
+            background: white;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            box-shadow: 5px 2px 5px grey;
+
+        } 
+        .logo{ 
+            font-weight:100;
+            font-size: 2em;
+            letter-spacing: 2px; 
+            font-style: Lucida Calligraphy;
+
+        } 
+        .logo span{ 
+            color: green;
+        } 
+        .menu a{
+            text-decoration: none;
+            color: black;
+            padding: 20px 30px;
+        } 
+        .menu a:last-child
+        {
+            background: green;
+            color: white;
+            border-radius: 8px;
+        } 
+        .h-text{
+            position: absolute;
+            top:30%;
+            left:5%;
+            padding: 15px;
+
+        }
+        .h-text p{
+            color:#262626;
+            letter-spacing: 3px;
+            font-weight: bold;
+
+        } 
+        .h-text h1{
+            font-size: 4em;
+            line-height: 1.5em;
+        } 
+        .h-text h1 span{
+            color: green;
+
+        }  
+        .h-text h2{
+            font-size: 4em;
+            margin-bottom: 0.5em;
+        } 
+        #order{
+            text-decoration: none;
+            color:white;
+            background: green;
+            padding: 10px 20px; 
+            border-radius: 8px;
+
+        } 
+        #dis{
+            text-decoration: none;
+            color: white;
+            background: #262626;
+            padding: 10px 20px;
+            border-radius: 8px;
+        } 
+        #vadapav{
+            position:absolute;
+            size: 0ch;
+            bottom: 5%;
+            left: 5%;
+
+        } 
+        #vadapav img{
+            transition: 0.4% ease;
+        } 
+        #vadapav img:hover{
+            transform: translateY(-20px)
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                The <span>Sou</span>th Test</div>
+            <div class="menu">
+                <a href="#">Foods</a>
+                <a href="#">Offer</a>
+                <a href="#">Your Order</a>
+                <a href="#">Delivary</a>
+                <a href="#">Cart</a>
+                </div>
+        </nav> 
+        <div class="h-text">
+            <p>Free Home Delivary </p>
+            <h1>Quality F<span>oo</span>ds</h1>
+            <h2>The taste you want is here</h2>
+            <a href="#" id="order"> Order now!!</a>
+            <a href="#" id="dis">25% of hurry!!</a>
+            </div> 
+            <div id="vadapav">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Fj7DZoIKOinrqv7kS7dHSwHaFj&pid=Api&P=0" width="200">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.GS0Wyp39BlnI8QqtJIp58wHaD3&pid=Api&P=0"width="290">
+                
+                <img src= "https://tse4.mm.bing.net/th?id=OIP.1TV4u3A9bfEME5Zcct_6NgHaE8&pid=Api&P=0"width="220">
+    </header>
+</body>
+</html>
